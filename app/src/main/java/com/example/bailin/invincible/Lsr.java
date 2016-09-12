@@ -44,13 +44,9 @@ public class Lsr {
         this.c = c;
     }
 
-
-
-
     public String getD() {
         return d;
     }
-
 
 
     public int getA() {
