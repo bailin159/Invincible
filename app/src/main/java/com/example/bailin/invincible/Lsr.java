@@ -11,6 +11,23 @@ public class Lsr {
     private int s;
     private int e;
     private String kaka;
+    private String d;
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public void setS(int s) {
+        this.s = s;
+    }
+
+    public String getD() {
+        return d;
+    }
+
+    public void setD(String d) {
+        this.d = d;
+    }
 
     public int getA() {
         return a;
@@ -26,13 +43,7 @@ public class Lsr {
         this.s = s;
     }
 
-    public void setA(int a) {
-        this.a = a;
-    }
 
-    public void setS(int s) {
-        this.s = s;
-    }
 
     public int getE() {
         return e;
